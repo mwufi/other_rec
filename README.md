@@ -54,6 +54,12 @@ It seems that this works quite well.
 
 https://pbpython.com/record-linking.html
 
+### Modelling
+
+If you look carefully, what we implemented is NOT what is in the picture.
+
+The Tencent model uses the user's **interaction sequence** as the basis for future recommendations. However, we just shove the user's features into the transformer layer (roughly equivalent to just Item 1 and Item 2). This has pro's and con's.
+
 ### Evaluation & Production
 
 Lots of work remains here! Making the model servable, with a good interface, is something that we probably have to think about _before_ making the model! In this particular implementation, sadly, it is not super useful yet!
