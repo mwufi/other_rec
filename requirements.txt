@@ -1,0 +1,10 @@
+duckdb
+pandas
+notebook
+ipython-sql
+SQLAlchemy
+duckdb-engine
+fuzzymatcher
+torch
+scikit-learn
+transformers
